@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suppressions xmlns="https://jeremylong.github.io/DependencyCheck/dependency-suppression.1.3.xsd">
+   <suppress>
+      <notes><![CDATA[
+      file name: todo-1.0.0-SNAPSHOT.jar: spring-web-5.0.5.RELEASE.jar
+      ]]></notes>
+      <packageUrl regex="true">^pkg:maven/org\.springframework/spring\-web@.*$</packageUrl>
+      <cve>CVE-2016-1000027</cve>
+   </suppress>
+</suppressions>
